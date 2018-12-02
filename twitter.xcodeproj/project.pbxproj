@@ -15,6 +15,7 @@
 		0DB6B98621B36A98005451DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB6B98421B36A98005451DB /* LaunchScreen.storyboard */; };
 		0DB6B99121B36A98005451DB /* twitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB6B99021B36A98005451DB /* twitterTests.swift */; };
 		0DB6B99C21B36A99005451DB /* twitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB6B99B21B36A99005451DB /* twitterUITests.swift */; };
+		0DB6B9AA21B37FC0005451DB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB6B9A921B37FC0005451DB /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0DB6B99721B36A99005451DB /* twitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB6B99B21B36A99005451DB /* twitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitterUITests.swift; sourceTree = "<group>"; };
 		0DB6B99D21B36A99005451DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB6B9A921B37FC0005451DB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = ../../SwiftGames/HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				0DB6B97821B36A95005451DB /* AppDelegate.swift */,
 				0DB6B97A21B36A95005451DB /* ViewController.swift */,
+				0DB6B9A921B37FC0005451DB /* HomeController.swift */,
 				0DB6B97C21B36A95005451DB /* Main.storyboard */,
 				0DB6B98221B36A98005451DB /* Assets.xcassets */,
 				0DB6B98421B36A98005451DB /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB6B9AA21B37FC0005451DB /* HomeController.swift in Sources */,
 				0DB6B97B21B36A95005451DB /* ViewController.swift in Sources */,
 				0DB6B97921B36A95005451DB /* AppDelegate.swift in Sources */,
 				0DB6B98121B36A95005451DB /* twitter.xcdatamodeld in Sources */,
